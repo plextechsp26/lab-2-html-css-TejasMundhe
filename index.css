@@ -46,3 +46,106 @@ p {
 }
 
 /* TODO: Add CSS for the rest of your solution below */
+
+.wrapper3 {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.red3 {
+  background-color: red;
+  width: 80px;
+}
+
+.green3 {
+  background-color: green;
+  flex: 1;
+}
+
+.blue3 {
+  background-color: blue;
+  width: 80px;
+}
+
+.blue4 {
+  background-color: blue;
+  width: 80px;
+}
+
+.red4 {
+  background-color: red;
+  flex-grow: 1;
+}
+
+.wrapper5 {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.red5 {
+  background-color: red;
+  width: 40px;
+  height: 40px;
+}
+
+.red6-left {
+  background-color: red;
+  flex:1;
+}
+
+.red6-right {
+  background-color: red;
+  flex:1;
+}
+
+.blue6 {
+  background-color: blue;
+  width: 80px;
+}
+
+.red7 {
+  background-color: red;
+  width: 80px;
+  height: 60px;
+  flex-shrink: 0;
+}
+
+.shell7 {
+  background-color: transparent;
+}
+
+.wrapper8 {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.orange8 {
+  background-color: orange;
+  width: 180px;
+  flex-shrink: 0;
+}
+
+.wrapper9 {
+  display: flex;
+  height: 60px;
+  background-color: green;
+  margin-bottom: 20px;
+  justify-content: center;
+  gap: 60px;
+}
+
+.orange9 {
+  background-color: orange;
+  width: 180px;
+}
+
